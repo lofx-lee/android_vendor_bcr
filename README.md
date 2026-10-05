@@ -26,11 +26,11 @@ BCR is a simple Android call recording app for rooted devices or devices running
 
 ### How to use?
 
-1. Clone this repo to `vendor/xiaomi/bcr`
+1. Clone this repo to `vendor/bcr`
 2. Inherit it from `device.mk` in device tree:
 ```
 # Inherit Basic Call Recorder
-$(call inherit-product, vendor/xiaomi/bcr/bcr.mk)
+$(call inherit-product, vendor/bcr/bcr.mk)
 ```
 
 ## License

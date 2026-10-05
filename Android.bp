@@ -4,7 +4,7 @@ soong_namespace {
 
 android_app_import {
 	name: "bcr",
-	owner: "xiaomi",
+	owner: "google",
 	apk: "prebuilts/product/priv-app/bcr/bcr.apk",
 	preprocessed: true,
 	presigned: true,
